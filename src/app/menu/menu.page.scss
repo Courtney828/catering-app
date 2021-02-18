@@ -1,0 +1,54 @@
+a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20;
+    color: black;}
+    p{
+    background-color: #e5ecf1;
+    line-height: 32px;
+}
+ion-label{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+label{
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    font-size: 12px;
+   
+}ion-title{
+    font-family: 'Times New Roman', Times, serif;
+}img{
+    
+margin:1px;
+width:156px;
+height:150px;
+border-radius: 8px;
+}
+ion-content {
+          
+    --background: rgba(237, 242, 245, .8);
+  
+    .back-blob {
+      z-index: -1;
+      width: 600px;
+      position: absolute;
+      left: -50%;
+      top: 0;
+    }
+    ion-toolbar {
+        --background: transparent;
+        background-color: #e5ecf1;
+      
+        ion-title {
+          padding: 20px 0 46px 0;
+          font-weight: 900;
+          background-color: #e5ecf1;
+        }
+        ion-icon{
+            color: black;
+            background-color: #e5ecf1; 
+        }
+}
+}
+
