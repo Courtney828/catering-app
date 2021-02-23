@@ -4,13 +4,18 @@
   </ion-toolbar>
 </ion-header><br>
 <ion-content fullscreen="true">
-<ion-label><i>This is what we do : </i></ion-label>
-<br>
-<ion-card *ngFor="let weed of weeding"><br>
-  <img src="{{weed.image}}"  ><br><div style=" text-align:center">
-  <P>{{weed.dscrpt}}</P></div>
-</ion-card>  
+  
 
+  <input type="button" name="button" class="button"  routerLink='/decor'/>
+    Decor
+    <input type="button" name="button" class="button2"  routerLink='/food'/>
+    Food
+    <input type="button" name="button" class="button3"  routerLink='/equipment'/>
+    Hiring Equipments
+ 
+ 
+ 
+
+      
 </ion-content>
 <div style=" text-align:center"><a routerLink='' >Home</a>&nbsp;&nbsp;
-<a routerLink='/gallery1'>Next</a></div>

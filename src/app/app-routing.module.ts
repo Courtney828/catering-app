@@ -52,6 +52,18 @@ const routes: Routes = [
     path: '',
     loadChildren: () => import('./wellcome/wellcome.module').then( m => m.WellcomePageModule)
   },
+  {
+    path: 'food',
+    loadChildren: () => import('./food/food.module').then( m => m.FoodPageModule)
+  },
+  {
+    path: 'decor',
+    loadChildren: () => import('./decor/decor.module').then( m => m.DecorPageModule)
+  },
+  {
+    path: 'equipment',
+    loadChildren: () => import('./equipment/equipment.module').then( m => m.EquipmentPageModule)
+  },
 ];
 
 @NgModule({
